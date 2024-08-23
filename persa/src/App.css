@@ -4,18 +4,35 @@
   padding: 2rem;
   text-align: center;
 }
+.titulo{
+  color: black;
+  transition: color 0.3s; /* Transición suave */
+}
+.titulo:hover {
+    color: red; /* Cambia el color del texto */
+}
 
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 1000ms;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.alfombras{
+  text-align: center;
+  width: auto; 
+  height: auto; 
+  flex-direction: row;
+}
+.alfombras#imgcab3{
+  text-align: center;
+  width: 50%;
 }
 
 @keyframes logo-spin {
@@ -39,4 +56,18 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+.redes#(imgcab1, imgcab2,imgcab3) {
+  display: inline-block; /* Necesario para aplicar transformaciones */
+  transition: opacity 0.3s, transform 0.3s; /* Transiciones suaves para opacidad y rotación */
+  font-size: 24px; /* Tamaño del texto (opcional) */
+  color: black; /* Color del texto (opcional) */
+}
+
+/* Efecto al pasar el ratón */
+.redes:hover {
+  opacity: 0.5; /* Reduce la opacidad al 50% */
+  transform: rotate(180deg); /* Rote el texto 180 grados */
 }

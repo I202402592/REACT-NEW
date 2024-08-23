@@ -9,19 +9,19 @@ import Redes from './componentes/Redes';
 function App(){
   return(
 <>
-<div>
+<div className="titulo">
 <Titulo/>
 </div>
-<div>
+<div className="menu">
 <Menu/>
 </div>
 <div className="Carro">
 <Carrusel/>
 </div>
-<div>
+<div className="alfombras">
   <Alfombras/>
 </div>
-<div>
+<div className="redes">
   <Redes/>
 </div>
 </>

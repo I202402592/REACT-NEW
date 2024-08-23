@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import alf1 from './Imagenes/alfombra1.jpg';
-import alf2 from './Imagenes/alfombra2.jpg';
-import alf3 from './Imagenes/alfombra3.jpg';
+import tienda1 from './Imagenes/tienda1.jpg';
+import tienda2 from './Imagenes/tienda2.jpg';
+import tienda3 from './Imagenes/tienda3.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function DarkVariantExample() {
@@ -11,7 +11,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src= {alf1}
+          src= {tienda1}
           alt="Alfombra 1"
         />
         <Carousel.Caption>
@@ -22,7 +22,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src= {alf2}
+          src= {tienda2}
           alt= "Alfombra 2"
         />
         <Carousel.Caption>
@@ -33,7 +33,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src= {alf3}
+          src= {tienda3}
           alt= "Alfombra 3"
           />
           <Carousel.Caption>

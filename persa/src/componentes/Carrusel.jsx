@@ -16,7 +16,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Alfombra l</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -27,7 +27,6 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Alfombra 2</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -38,9 +37,6 @@ function DarkVariantExample() {
           />
           <Carousel.Caption>
             <h5>Alfombra 3</h5>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
